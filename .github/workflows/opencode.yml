@@ -22,10 +22,8 @@ jobs:
            persist-credentials: false
 
        - name: Run OpenCode
-        uses: anomalyco/opencode/github@latest
-        env:
-    
-        with:
+         uses: anomalyco/opencode/github@latest    
+         with:
           model: opencode/mimo-v2-pro-free
           # share: true
           # github_token: xxxx
